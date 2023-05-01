@@ -25,15 +25,20 @@
 
 //chessboard
 
-// const chessboard = 8;
+// let size = 8; 
+// let chessboard = ""; 
 
-// for (let y = 0; y<chessboard; y++) {
-//   let line = '';
-//   for (let x=0; x<chessboard; x++) {
-//     line += ((x+y)%2) ? ' ' : '#';
+// for (let y = 0; y < size; y++) { 
+//   for (let x = 0; x < size; x++) { 
+//     if ((x + y) % 2 === 0) { 
+//       chessboard += " "; 
+//     } else {
+//       chessboard += "#"; 
+//     }
 //   }
-//   console.log(line);
+//   chessboard += "\n"; 
 // }
+// console.log(board);
 
 //chessboard
 
