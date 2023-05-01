@@ -1,13 +1,13 @@
-//Triangle
+//Triangleincicle
 
-// var triangle = "#";
+// var trianglecicle = "#";
 
 // do {
-//     console.log(triangle);
-//     triangle += "#";
-// } while (triangle.length <= 7);
+//     console.log(triangleincicle);
+//     triangleincicle += "#";
+// } while (triangleincicle.length <= 7);
 
-//Triangle
+//Triangleincicle
 
 //FizzBuzz
 
