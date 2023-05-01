@@ -25,39 +25,14 @@
 
 //chessboard
 
-// var chessboard = 8,
-//     totalSize = chessboard * chessboard,
-//     line = "",
-//     flag = true;
+// const chessboard = 8;
 
-
-// function createLine(chessboard, flag) {
-//     var result = "";
-//     for (var i = 0; i < chessboard; i++) {
-//         (i % 2) ? result += "#" : result += " ";
-//     }
-//     if (flag) {
-//         result = reverseString(result);
-//     }
-//     return result;
-// }
-
-// function reverseString(str) {
-//     var result = "";
-//     for (var i = str.length - 1; i > 0; i--) {
-//         result += str[i];
-//     }
-//     return result;
-// }
-
-
-// for (var i = 1; i <= chessboard; i++) {
-//     if (flag) {
-//         flag = false;
-//     } else {
-//         flag = true;
-//     }
-//     console.log(createLine(chessboard, flag));
+// for (let y = 0; y<chessboard; y++) {
+//   let line = '';
+//   for (let x=0; x<chessboard; x++) {
+//     line += ((x+y)%2) ? ' ' : '#';
+//   }
+//   console.log(line);
 // }
 
 //chessboard
