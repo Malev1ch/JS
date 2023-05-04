@@ -39,12 +39,28 @@
 // console.log(sumArray(myArr)); // 15
 // //HW-3
 
+//HW-4
+// const sendMessage = {
+//     phoneNumber: '123456789',
+//     messageText: 'Hello, world!',
+//     senddMessage: function() {
+//       console.log('Sending to number: ' + this.phoneNumber + ' Message: ' + this.messageText);
+//     }
+//   }
+//   sendMessage.senddMessage();
+//HW-4
+  
 //HW-5
 // const bankAccount = {
-//     accountNumber: 1,
-//     balance: 100,
+//     accountNumber: '123456789',
+//     balance: '1000',
 //     sendTransfer: function(accountNumber, amount) {
-//     this.balance -= amount;
-//     }
-// };
+//         console.log('Sending ' + amount + ' to account ' + accountNumber);
+//         this.balance -= amount;
+//         }
+//     };
+    
+//     console.log('Balance:' + bankAccount.balance);
+//     bankAccount.sendTransfer("987654321", 500);
+//     console.log('New Balance:' + bankAccount.balance);
 //HW-5
