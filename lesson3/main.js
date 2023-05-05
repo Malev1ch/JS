@@ -12,19 +12,19 @@
 
 //HW-2
 // function exponentiation(number, power) {
-//     if (power === 0) return 1;
-//     if (number === 0) return 0;
-//     if (number === 1) return 1; 
-//     let result = 1;
-//     while (power !== 0) {
-//       result = result * number;
-//       power = power - 1;
-//     }
-//     return result;
+// if (power === 0) return 1;
+// if (number === 0) return 0;
+// if (number === 1) return 1;
+// let result = 1;
+// for (let i = 1; i <= power; i++) {
+// result *= number;
 // }
+// return result;
+// }
+
 // const number = +prompt("Введите число");
 // const degree = +prompt("Введите степень");
-// alert ("Результат: " + exponentiation(number, degree));
+// alert("Результат: " + exponentiation(number, degree));
 //HW-2
 
 //HW-3
