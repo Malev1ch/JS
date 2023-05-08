@@ -1,51 +1,29 @@
 // Task 1 
-// Напишите функцию, которая вернет текст внутри первого тэга -   li
-// function getFirstListItemText() {
-// const firstLiItem = document.querySelector('.list-item');
-// return firstLiItem.textContent;
-// }
-// console.log(getFirstListItemText());
-
 // let green = document.querySelector('.green')
 // console.log(green.textContent);
 
 // Task 2
 // Напишите функцию, которая вернет массива с текстами внутри тэгов - li
 
-// function getLiTexts() {
-//     const liElements = document.getElementsByTagName("li");
-//     const texts = [];
-//     for (let i = 0; i < liElements.length; i++) {
-//       texts.push(liElements[i].textContent);
-//     }
-//     return texts;
-//   }
-//   console.log(getLiTexts()); 
+// let lists = document.querySelectorAll('li')
+// for(let i = 0; i < lists.length; i++) {
+//         console.log(lists[i].textContent);
+// }
 
 
 // Task 3
 // Напишите функцию, которая вернет массива с текстами внутри тэгов   элементов с классом list-item 
-// function getTexts() {
-//     const listItems = document.querySelectorAll('.list-item');
-//     const texts = [];
-//     listItems.forEach(item => {
-//       texts.push(item.textContent);
-//     });
-//     return texts;
-//   }
-//   console.log(getTexts());
+// let lists = document.querySelectorAll('.list-item')
+// for(let i = 0; i < lists.length; i++) {
+//         console.log(lists[i].textContent);
+// }
 
 // Task 4
 // Напишите функцию, которая вернет массив   со значениями аттрибута class внутри тэгов элементов с классом list-item
-// function getClassValues() {
-//     const listItems = document.querySelectorAll('.list-item');
-//     const classValues = [];
-//     for (let i = 0; i < listItems.length; i++) {
-//       classValues.push(listItems[i].getAttribute('class'));
-//     }
-//     return classValues;
-//   }
-//   console.log(getClassValues());
+// let lists = document.querySelectorAll('.list-item')
+// for(let i = 0; i < lists.length; i++) {
+//         console.log(lists[i].textContent);
+// }
 
 // Task 5
 // Напишите функцию, которая вернет массива со значениями аттрибута data-test-id  внутри тэгов элементов с классом  list-item.
@@ -73,17 +51,11 @@
 
 // Используйте map для обхода массива. Иными словами элемент считается сломанным если в классах не содержится текста элемента.
 
-// const listItems = document.querySelectorAll('.list-item');
-// const brokenItems = [];
-// listItems.forEach(item => {
-//   const classes = item.classList;
-//   const text = item.textContent.trim();
-//   if (!classes.contains(text)) {
-//     brokenItems.push(item.getAttribute('data-test-id'));
-//   }
-// });
-// console.log(brokenItems); // ["3", "5"]
-
+// 
+// const lists = document.querySelectorAll('li');
+// for(let i = 0; i < lists.length; i++) {
+//     lists[i].className.includes(lists[i].textContent) === false ? console.log(lists[i])  : ''
+// }
 
 
 // Task 7
@@ -103,12 +75,12 @@
 
 // } )
 
-// const elementsArray = document.querySelectorAll('.list-item');
-// elementsArray.forEach((element) => {
-//   const text = element.textContent.trim();
-//   const dataTestId = element.getAttribute('data-test-id');
-//   element.textContent = `${dataTestId} ${text}`;
-// });
+// let lists = document.querySelectorAll('.list-item')
+// let arr = []
+// for(let i = 0; i < lists.length; i++) {
+//     arr.push(lists[i].getAttribute('data-test-id'))
+//     lists[i].textContent = arr[i] + " " + lists[i].textContent
+// }
 
 // Task 8
 //  На сайте есть поле для ввода с id = ‘secret-login’.  Ваша задача - изменить его содержимое на You were hacked
