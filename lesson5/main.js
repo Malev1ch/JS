@@ -230,6 +230,7 @@ let products = [
 //       let price = document.createElement('p')
 //       let description = document.createElement('p')
 //       let category = document.createElement('p')
+// 	 let rating = document.createElement('p')
 //       image.setAttribute('src', item.image )
 //       card.classList.add('card')
 //       image.classList.add('image')
@@ -237,16 +238,19 @@ let products = [
 //       price.classList.add('card__price')
 //       description.classList.add('card__description')
 //       category.classList.add('card__category')
+// 	 rating.classList.add('card__rating')
 //       title.textContent = item.title
 //       description.textContent = `Описание: ${item.description}`
 //       category.textContent = `Категория: ${item.category}`
 //       price.textContent = `Цена: ${item.price}`
+// 	 rating.textContent = `Рейтинг: ${item.rating.rate}, ${item.rating.count}`
 
 //       card.append(image)
 //       card.append(title)
 //       card.append(description)
 //       card.append(category)
 //       card.append(price)
+// 	  card.append(rating)
 //       div_cards.append(card)
 //   })
 // }
