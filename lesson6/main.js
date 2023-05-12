@@ -225,7 +225,7 @@ let status = 'All'
 
 let div_cards = document.querySelector('.div_cards')
 
-let menuItems = document.querySelectorAll('menu_item')
+let menuItems = document.querySelectorAll('.menu_item')
 
 const cardsTest = () => {
     Array.from(menuItems).forEach((item) => {
