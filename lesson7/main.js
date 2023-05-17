@@ -282,11 +282,33 @@
 
 
 const ROOT = document.getElementById('root')
-
-
 const btnModal = document.createElement('button')
-ROOT.append(btnModal)
+const modalWindow = document.createElement('div')
+const modalText = document.createElement('div');
+const btnDecline = document.createElement('button');
+const btnAccept = document.createElement('button');
+const closeModel = document.createElement('button')
+const modal = document.createElement('div')
+
 btnModal.textContent = 'SHOW MODAL';
+modalWindow.textContent = 'Warning!'
+modalText.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta asperiores deleniti ipsam. Temporibus pariatur in quaerat ea consequatur libero fuga?';
+btnDecline.textContent = 'Decline'
+btnAccept.textContent = 'Accept'
+closeModel.textContent = 'X'
+
+modalWindow.style.cssText= `
+    position: fixed;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 8px rgba(34, 60, 80, 0.2);
+`
+
 btnModal.style.cssText = `
     font-size: 1rem;
     margin: 0 auto;
@@ -295,34 +317,15 @@ btnModal.style.cssText = `
     padding: 8px 10px;
     border-radius: 5px;  
 `
-const modalWindow = document.createElement('div')
-const modalText = document.createElement('div');
-const btnClose = document.createElement('button');
-const btnCancel = document.createElement('button');
-const closeModel = document.createElement('button')
-modalWindow.style.cssText= `
-position: fixed;
-width: 600px;
-height: 300px;
-background-color: white;
-padding: 20px;
-font-size: 1.5rem;
-font-weight: 700;
-border-radius: 20px;
-box-shadow: 4px 4px 8px 8px rgba(34, 60, 80, 0.2);
-`
-modalWindow.textContent = 'Warning!'
-modalText.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta asperiores deleniti ipsam. Temporibus pariatur in quaerat ea consequatur libero fuga?';
-btnClose.textContent = 'Decline'
-btnCancel.textContent = 'Accept'
-closeModel.textContent = 'X'
+
 modalText.style.cssText = `
-font-size: 20px;
-font-weight: 100;
-margin-top: 50px;`
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 50px;
+`
 
 
-btnClose.style.cssText = `
+btnDecline.style.cssText = `
     background-color: red;
     font-size: 1rem;
     margin-top: 30px;
@@ -332,7 +335,7 @@ btnClose.style.cssText = `
     border-radius: 10px; 
 `
 
-btnCancel.style.cssText = `
+btnAccept.style.cssText = `
     background-color: rgb(34, 202, 34);
     font-size: 1rem;
     margin-top: -37px;
@@ -342,33 +345,31 @@ btnCancel.style.cssText = `
     border-radius: 10px;
 `
 closeModel.style.cssText = `
-position: absolute;
-margin-top: -228px;
-margin-left: 545px;
-background-color: red;
-width: 20px;
-height: 20px;
-color: white;
-border: none;
-border-radius: 50%;
+    position: absolute;
+    margin-top: -228px;
+    margin-left: 545px;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    color: white;
+    border: none;
+    border-radius: 50%;
 `
-
-const modal = document.createElement('div')
 modal.style.cssText = `
-position: fixed;
-top: 0;
-left: 0;
-width: 100vw;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
-
+ROOT.append(btnModal)
 modal.append(modalWindow)
 modalWindow.appendChild(modalText);
-modalWindow.appendChild(btnClose);
-modalWindow.appendChild(btnCancel);
+modalWindow.appendChild(btnDecline);
+modalWindow.appendChild(btnAccept);
 modalWindow.appendChild(closeModel)
 
 btnModal.addEventListener('click', () => {
