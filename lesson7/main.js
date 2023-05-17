@@ -289,6 +289,9 @@ const btnDecline = document.createElement('button');
 const btnAccept = document.createElement('button');
 const closeModel = document.createElement('button')
 const modal = document.createElement('div')
+// const img = document.querySelector('input[type=image]');
+// const overlay = document.createElement('div');
+// const day = document.createElement('img');
 
 btnModal.textContent = 'SHOW MODAL';
 modalWindow.textContent = 'Warning!'
@@ -296,6 +299,7 @@ modalText.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit
 btnDecline.textContent = 'Decline'
 btnAccept.textContent = 'Accept'
 closeModel.textContent = 'X'
+// day.src = '/Assets/day.png'
 
 modalWindow.style.cssText= `
     position: fixed;
@@ -365,6 +369,25 @@ modal.style.cssText = `
     justify-content: center;
     align-items: center;
 `
+
+// overlay.style.cssText = `
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100vw;
+//     height: 100vh;
+//     background-color: #00000080;
+//     display: none;
+// `
+// day.style.cssText = `
+//     position: absolute;
+//     top: 20px;
+//     right: 20px;
+//     width: 50px;
+//     height: 50px;
+//     cursor: pointer;
+// `
+
 ROOT.append(btnModal)
 modal.append(modalWindow)
 modalWindow.appendChild(modalText);
@@ -385,3 +408,21 @@ modal.addEventListener('click', (event) => {
         modal.remove()
     }
 })
+
+//затемнение
+// img.addEventListener('click', () => {
+//     document.body.appendChild(overlay);
+//     overlay.style.display = 'block';
+// });
+//затемнение
+
+//возврат в исходное состояние
+// img.addEventListener('click', () => {
+//     document.body.appendChild(overlay);
+//     overlay.appendChild(day);
+//     overlay.style.display = 'block';
+// });
+// closeImg.addEventListener('click', () => {
+//     overlay.remove();
+// });
+//возврат в исходное состояние
