@@ -371,40 +371,6 @@ modalWindow.appendChild(btnClose);
 modalWindow.appendChild(btnCancel);
 modalWindow.appendChild(closeModel)
 
-const img = document.querySelector('input[type=image]');
-const overlay = document.createElement('div');
-overlay.style.cssText = `
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #00000080;
-    display: none;
-`;
-const dayImg = document.createElement('img');
-dayImg.src = '/Assets/day.png'
-dayImg.style.cssText = `
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-`;
-img.addEventListener('click', () => {
-    document.body.appendChild(overlay);
-    overlay.appendChild(dayImg);
-    overlay.style.display = 'block';
-});
-dayImg.addEventListener('click', () => {
-    overlay.remove();
-});
-img.addEventListener('click', () => {
-    document.body.appendChild(overlay);
-    overlay.style.display = 'block';
-});
-
 btnModal.addEventListener('click', () => {
     ROOT.append(modal)
 })
