@@ -1,11 +1,11 @@
-let kub = document.querySelector('.kub');
+let circle = document.querySelector('.kub');
 let btnRed = document.querySelector('.btn_red');
 let btnYellow = document.querySelector('.btn_yellow');
 let btnGreen = document.querySelector('.btn_green');
 let btnReset = document.querySelector('.btn_reset');
 let changeColor = (color) => {
     setTimeout(() => {
-        kub.style.backgroundColor = color;
+        circle.style.backgroundColor = color;
     }, 1000);
 };
 
@@ -22,5 +22,5 @@ btnGreen.addEventListener('click', () => {
 });
 
 btnReset.addEventListener('click', () => {
-    kub.style.backgroundColor = 'rgb(126, 125, 124)';
+    circle.style.backgroundColor = 'rgb(126, 125, 124)';
 });
