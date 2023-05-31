@@ -3,26 +3,33 @@ let btnRed = document.querySelector('.btn_red');
 let btnYellow = document.querySelector('.btn_yellow');
 let btnGreen = document.querySelector('.btn_green');
 let btnReset = document.querySelector('.btn_reset');
+let timeoutId;
+
 let changeColor = (color) => {
-    setTimeout(() => {
+    timeoutId = setTimeout(() => {
         circle.style.backgroundColor = color;
-        console.log(color);
+        console.log('This color:', color);
+        setTimeout(() => {
+            circle.style.backgroundColor = 'rgb(126, 125, 124)';
+            console.log('The colors have returned to their original state');
+        }, 2000);
     }, 1000);
 };
 
 btnRed.addEventListener('click', () => {
-    changeColor('red');
+    clearTimeout(timeoutId);
+    changeColor('Red');
 });
-
 btnYellow.addEventListener('click', () => {
-    changeColor('yellow');
+    clearTimeout(timeoutId);
+    changeColor('Yellow');
 });
-
 btnGreen.addEventListener('click', () => {
-    changeColor('green');
+    clearTimeout(timeoutId);
+    changeColor('Green');
 });
-
 btnReset.addEventListener('click', () => {
+    clearTimeout(timeoutId);
     circle.style.backgroundColor = 'rgb(126, 125, 124)';
-    console.log('Reset Color');
+    console.log('Colors Reset');
 });
