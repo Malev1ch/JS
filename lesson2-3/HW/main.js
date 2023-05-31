@@ -12,7 +12,7 @@ let changeColor = (color) => {
         setTimeout(() => {
             circle.style.backgroundColor = 'rgb(126, 125, 124)';
             console.log('The colors have returned to their original state');
-        }, 2000);
+        }, 1000);
     }, 1000);
 };
 
