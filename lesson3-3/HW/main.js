@@ -1,3 +1,50 @@
+// let menu = document.querySelector('.menu');
+// let row = document.querySelector('.row');
+
+// const getProducts = (category) => {
+//   fetch(`https://dummyjson.com/products${category === 'all' ? '' : 'categories/' + category}`)
+//     .then((res) => res.json())
+//     .then((res) => {
+//       row.innerHTML = "";
+//       res.products.map((item) => {
+//         row.innerHTML += `
+//           <div class="card">
+//             <img class="card__img" src="${item.thumbnail}" alt="">
+//             <h2 class="card__title">${item.title}</h2>
+//             <p class="card__subtitle">${item.description}</p>
+//             <p class="card__category">Category: ${item.category}</p>
+//             <p class="card__price">Price: ${item.price}</p>
+//             <p class="card__rating">Rating: ${item.rating}</p>
+//           </div>
+//         `
+//       })
+//     })
+// }
+
+// const getCategories = () => {
+//   fetch('https://dummyjson.com/products/categories')
+//     .then((res) => res.json())
+//     .then((res) => {
+//       menu.innerHTML = "";
+//       res.map((item) => {
+//         let menuItem = document.createElement('li');
+//         menuItem.classList.add('menu-item');
+//         let menuItemLink = document.createElement('a');
+//         menuItemLink.href = '';
+//         menuItemLink.textContent = item;
+//         menuItem.addEventListener('click', (event) => {
+//           getProducts(event.target.textContent);
+//         });
+        
+//         menuItem.appendChild(menuItemLink);
+//         menu.appendChild(menuItem);
+//       });
+//       getProducts('all');
+//     });
+// };
+
+// getCategories();
+
 let menu = document.querySelector('.menu')
 let row = document.querySelector('.row')
 const getProducts = (category) => {
@@ -19,7 +66,6 @@ const getProducts = (category) => {
             <p class="card__category">Категория: ${item.category}</p>
             <p class="card__price">Цена: ${item.price}</p>
             <p class="card__rating">Рейтинг: ${item.rating}</p> 
-            
           </div>
         `;
       });
