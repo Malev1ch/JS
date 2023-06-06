@@ -1,10 +1,10 @@
 let menu = document.querySelector('.menu')
 let row = document.querySelector('.row')
 const getProducts = (category) => {
-  fetch(`https://dummyjson.com/products${category === 'all' ? '' : '?category=' + category}`)
+  fetch(`https://dummyjson.com/products${category === 'all' ? '' : 'category=' + category}`)
     .then((res) => res.json())
     .then((res) => {
-      res.products.map((item) => {
+      res.products.forEach((item) => {
         row.innerHTML += `
           <div class="card">
             <img class="card__img" src="${item.thumbnail}" alt="">
