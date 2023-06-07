@@ -83,6 +83,7 @@ Array.from(menuItems).forEach((item) => {
     item.addEventListener('click', () => {
         row.innerHTML = ''
         getProducts(item.textContent)
+            getProducts('all');
      })
    })
  })
