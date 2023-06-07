@@ -81,11 +81,15 @@ const getCategories = () => {
 let menuItems = document.querySelectorAll('.menu-item')
 Array.from(menuItems).forEach((item) => {
     item.addEventListener('click', () => {
-        row.innerHTML = ''
-        getProducts(item.textContent)
-            getProducts('all');
-     })
-   })
- })
+        row.innerHTML = ""
+        if(item.textContent === 'All') {
+          getProducts('all')
+          } else {
+          getProducts(item.textContent)
+          }
+      })
+    })
+  })
 }
+getCategories()
 getCategories()
