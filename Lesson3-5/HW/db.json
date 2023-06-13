@@ -1,0 +1,49 @@
+{
+    "shoes": [
+        {
+            "id": 1,
+            "title": "Nike Air Max 270",
+            "gender": "men",
+            "brand": "nike",
+            "category": "street",
+            "price": 9000,
+            "images": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/csnnsvmzomr1gu7qfcnd/air-max-270-womens-shoes-Pgb94t.png"
+        },
+        {
+            "id": 2,
+            "title": "Puma Air Zoom pegasus",
+            "gender": "men",
+            "brand": "puma",
+            "category": "running",
+            "price": 15000,
+            "images": "https://athleticsillustrated.com/wp-content/uploads/2021/08/Pegasus_Zoom_38.jpg"
+        },
+        {
+            "id": 3,
+            "title": "New Balance",
+            "gender": "men",
+            "brand": "new balance",
+            "category": "training",
+            "price": 10000,
+            "images": "https://nb.scene7.com/is/image/NB/ws327kb_nb_02_i?$pdpflexf2$&wid=440&hei=440"
+        },
+        {
+            "id": 4,
+            "title": "addidas",
+            "gender": "woman",
+            "brand": "addidas",
+            "category": "street",
+            "price": 8000,
+            "images": "https://d2ob0iztsaxy5v.cloudfront.net/product/192109/1921091220_zm.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Nike ZoomX ",
+            "gender": "woman",
+            "brand": "nike",
+            "category": "running",
+            "price": 16000,
+            "images": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/109b6ace-cbfc-475e-90e1-1b8f9fce9db7/streakfly-premium-road-racing-shoes-8rTxtR.png"
+        }
+    ]
+}
