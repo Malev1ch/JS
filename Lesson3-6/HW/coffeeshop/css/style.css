@@ -1,0 +1,208 @@
+.section_first {
+	position: relative;
+	height: 800px;
+}
+
+
+h1 {
+	position: absolute;
+	font-family: 'Oswald';
+	font-weight: 900;
+	font-size: 70px;
+	line-height: 80px;
+	color: #000000;
+	top: 20%;
+	left: 4.5%;
+}
+
+p.description_one {
+	position: absolute;
+	width: 400px;
+	font-family: 'Oswald';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	color: #000000;
+	top: 35%;
+	left: 5%;
+}
+
+p.description_two {
+	position: absolute;
+	font-family: 'Oswald';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	color: #000000;
+	top: 45%;
+	left: 5%;
+}
+
+.button_top_view {
+	position: absolute;
+	width: 300px;
+	height: 80px;
+	border-radius: 5px;
+	border: none;
+	background-color: #F9B300;
+	top: 55%;
+	left: 5%;
+}
+
+.button_top_view p {
+	font-family: 'Oswald';
+	font-weight: 400;
+	font-size: 30px;
+	color: aliceblue;
+}
+
+.slider_orange_img {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.coffe_grain {
+	position: absolute;
+	width: 40%;
+	top: 10%;
+	right: 15%;
+}
+
+.coffee_cup {
+	position: absolute;
+	width: 30%;
+	top: 20%;
+	right: 20%;
+}
+
+.orange_bottom_side {
+	position: absolute;
+	top: 700px
+}
+
+.coffe_bottom_side {
+	position: relative;
+	width: 20%;
+}
+
+.slider_buttons {
+	position: absolute;
+	display: flex;
+	width: 100px;
+	justify-content: space-between;
+	cursor: pointer;
+	top: 5%;
+	right: 5%;
+}
+
+.section_second {
+	position: relative;
+	padding: 0 50px 0 50px;
+	height: 700px;
+}
+
+
+h2	{
+	position: absolute;
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50px;
+	line-height: 62px;
+	top: -15%;
+
+color: #000000;
+}
+.section_second_catalog	{
+	display: flex;
+	justify-content: space-around;
+	gap: 10px;
+}
+
+.catalog_cards	{
+	width: 400px;
+	height: 500px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	gap: 30px;
+
+}
+
+.catalog_cards>img {
+	width: 70%;
+}
+
+.button_second_view {
+	width: 270px;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	background-color: #F9B300;
+}
+
+.button_second_view p {
+	font-family: 'Oswald';
+	font-weight: 400;
+	font-size: 20px;
+	color: aliceblue;
+}
+
+
+.catalog_cards:nth-child(2) {
+	padding-bottom: 20px;
+}
+
+.second_sect_title{
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+
+	color: #000000;	
+}
+
+
+.section_three_description	{
+	display: flex;
+	justify-content: flex-end;
+}
+.section_threeh2	{
+	right: 0;
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50px;
+	line-height: 62px;
+	color: #000000;	
+}
+
+.section_threedesc	{
+	margin-top: 70px;
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	width: 900px;
+	line-height: 130%;
+	text-align: right;
+	margin-bottom: 30px;
+	color: #000000;
+}
+
+.section_three_coffee_cards	{
+	display: flex;
+	justify-content: right;
+	gap: 10px;
+}
+.coffee_cards_brown	{
+	width: 330px;
+	height: 500px;
+	background-color: aqua;
+}
