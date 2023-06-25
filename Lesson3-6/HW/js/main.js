@@ -32,15 +32,15 @@ const getShoes = () => {
                     </div>
                     <div class="coffee_cards_main_content">
                         <div class="coffee_cards_images">
-                            <img style="width: 150px; height: 320px" src="${item.thumbnail}" alt="product image" class="coffee_cards_images_mains">
+                            <img style="width: 150px; height: 320px;" src="${item.thumbnail}" alt="product image" class="coffee_cards_images_mains">
                         </div>
                         <div class="coffee_cards_specfic">
                             <div class="coffee_cards_star">
                                 <img src="/Assets/Group 78.svg" alt="">
                             </div>
                             <div class="coffee_cards_feedback">
-                                <p class="coffee_cards_estimation">4.0</p>
-                                <p class="coffee_cards_estVotes">(32 отзыва)</p>
+                                <p class="coffee_cards_estimation">${item.rating}</p>
+                                <p class="coffee_cards_estVotes">(${item.ratingVotes} отзыва)</p>
                             </div>
                             <div class="coffee_cards_grains">
                                 <img src="/Assets/Group 98.svg" alt="">
