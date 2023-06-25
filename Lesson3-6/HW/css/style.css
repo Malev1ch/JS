@@ -198,8 +198,7 @@ color: #000000;
 	gap: 10px;
 }
 .coffee_cards_brown	{
-	width: 360px;
-	height: 600px;
+	width: 100%;
 	background-color: white;
 	padding: 20px;
 	border-radius: 10px;
@@ -823,6 +822,13 @@ input	{
 }
 
 
+
+.more_btn_down	{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
 
 .coffee_cards_title_mores	{
 	width: 300px;

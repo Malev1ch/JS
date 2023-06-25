@@ -24,7 +24,7 @@
             "id": 2,
             "title": "iPhone X",
             "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-            "price": 899,
+            "price": 499,
             "discountPercentage": 17.94,
             "rating": 4.44,
             "ratingVotes": 43,
@@ -43,10 +43,90 @@
             "id": 3,
             "title": "Samsung Universe 9",
             "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-            "price": 1249,
+            "price": 149,
             "discountPercentage": 15.46,
             "rating": 4.09,
             "ratingVotes": 33,
+            "stock": 36,
+            "brand": "Samsung",
+            "category": "smartphones",
+            "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+            "images": [
+                "https://i.dummyjson.com/data/products/3/1.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Samsung Universe 9",
+            "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+            "price": 1249,
+            "discountPercentage": 15.46,
+            "rating": 3.09,
+            "ratingVotes": 333,
+            "stock": 36,
+            "brand": "Samsung",
+            "category": "smartphones",
+            "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+            "images": [
+                "https://i.dummyjson.com/data/products/3/1.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Samsung Universe 9",
+            "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+            "price": 1279,
+            "discountPercentage": 15.46,
+            "rating": 2.09,
+            "ratingVotes": 343,
+            "stock": 36,
+            "brand": "Samsung",
+            "category": "smartphones",
+            "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+            "images": [
+                "https://i.dummyjson.com/data/products/3/1.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Samsung Universe 9",
+            "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+            "price": 12490,
+            "discountPercentage": 15.46,
+            "rating": 3.09,
+            "ratingVotes": 333,
+            "stock": 36,
+            "brand": "Samsung",
+            "category": "smartphones",
+            "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+            "images": [
+                "https://i.dummyjson.com/data/products/3/1.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Samsung Universe 9",
+            "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+            "price": 1289,
+            "discountPercentage": 15.46,
+            "rating": 4.19,
+            "ratingVotes": 23,
+            "stock": 36,
+            "brand": "Samsung",
+            "category": "smartphones",
+            "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+            "images": [
+                "https://i.dummyjson.com/data/products/3/1.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Samsung Universe 9",
+            "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+            "price": 1249,
+            "discountPercentage": 15.46,
+            "rating": 4.29,
+            "ratingVotes": 333,
             "stock": 36,
             "brand": "Samsung",
             "category": "smartphones",
