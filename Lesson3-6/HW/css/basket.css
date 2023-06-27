@@ -1,3 +1,7 @@
+
+.container {
+    background-color: antiquewhite;
+}
 .menu_top_basket_cont   {
     display: flex;
 }
@@ -19,9 +23,10 @@
 }
 
 .basket_body_container  {
-    margin-top: 50px;
+    margin: 50px 100px 0 100px;
     padding: 50px;
-    background-color: aqua;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .title_basket_top   {
@@ -44,4 +49,52 @@
 .basket_title_button    {
     display: flex;
     justify-content: space-between;
+}
+
+.basket_sort_title  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.basket_section_two {
+    padding: 50px 100px 50px 100px;
+}
+.basket_items_list  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(245, 241, 241);
+}
+
+.basket_inputs  {
+    display: flex;
+    justify-content: space-between;
+}
+.basket_inputs_display  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.basket_inputs_display>input {
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-color: silver;
+    padding-left: 50px;
+
+}
+
+.basket_inputs_display>input::placeholder {
+    font-family: 'Gilroy', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 130%;
+	color: #C9C9C9;
 }

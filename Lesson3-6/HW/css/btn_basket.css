@@ -1,0 +1,59 @@
+.count {
+    display: flex;
+}
+
+.count .change {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #35e201;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.count input {
+    max-width: 55px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.count .minus.min {
+    background-color: #989797;
+}
+
+.basket_items_del_btn   {
+    margin-left: 40px;
+}
+
+.basket_items_img_title {
+    margin-left: 50px;
+}
+
+.basket_items_price {
+    margin-left: 50px;
+}
+
+.bakset_items_price_sales   {
+    margin-right: 70px;
+}
+.input_del_baskets {
+    width: 150px;
+    height: 50px;
+    margin-right: 0;
+}
+
+.basket_sort_title_top:last-child   {
+    margin-right: 50px;
+}
+
+.basket_items_summary_price {
+    margin-right: 50px;
+}

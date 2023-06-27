@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/basket.css">
+    <link rel="stylesheet" href="css/btn_basket.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
@@ -43,7 +44,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container">
         <div class="menu_top_basket_cont">
             <ul>
@@ -59,9 +60,55 @@
                 <p class="title_basket_top">2 товара в корзине</p>
                 <button class="btn_basket_del">Удалить</button>
             </div>
+            <div class="basket_sort_title">
+                <p class="basket_sort_title_top">Удалить товар</p>
+                <p class="basket_sort_title_top">Наименование товара</p>
+                <p class="basket_sort_title_top">Цена</p>
+                <p class="basket_sort_title_top">Количество</p>
+                <p class="basket_sort_title_top">Стоимость (10%)</p>
+                <p class="basket_sort_title_top">Итого</p>
+            </div>
+            <div class="basket_items_list">
+                <span class="basket_items_del_btn">X</span>
+                <div class="basket_items_img_title">
+                    <p class="basket_items_img_titleMain">Columbia</p>
+                    <p class="basket_items_img_titleDesc">Description</p>
+                </div>
+                <div class="basket_items_price">257</div>
+                <div class="basket_add_del_item">
+                    <span class="change minus min">
+                        <span>-</span>
+                    </span>
+                    <input type="text" name="productСount" value="1" disabled="" class="input_del_baskets">
+                    <span class="change plus">
+                        <span>+</span>
+                    </span>
+                </div>
+                <div class="bakset_items_price_sales">27</div>
+                <div class="basket_items_summary_price">999</div>
+            </div>
         </div>
-
+        <div class="basket_section_two">
+            <h3>Доставка</h3>
+            <div class="basket_inputs">
+                <div class="basket_inputs_display">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Фамилия">
+                    <input type="text" placeholder="Телефон">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Название компании">
+                </div>
+                <div class="basket_inputs_display">
+                    <input type="text" placeholder="Страна">
+                    <input type="text" placeholder="Город">
+                    <input type="text" placeholder="Улица, дом">
+                    <input type="text" placeholder="Почтовый индекс">
+                    <input type="text" placeholder="Комментарии к заказу">
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="/js/btn_basket.js"></script>
 </body>
 
 </html>
