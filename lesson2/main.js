@@ -65,19 +65,3 @@
 // console.log(arr1);
 
 //6dop
-
-// Вычисление факториала числа
-
-// const numb = prompt ("Введите число");
-// function factorial(numb) {
-//     let ans = 1;  
-//     if(numb === 0)
-//         return 1;
-//     for (let i = 2; i <= numb; i++)
-//         ans = ans * i;
-//     return ans;
-// }
-// alert("Факториал числа: " + numb + " равен " + factorial(numb));
-// console.log(factorial(numb));
-
-// Вычисление факториала числа
