@@ -3,9 +3,9 @@
 // var trianglecicle = "#";
 
 // do {
-//     console.log(triangleincicle);
-//     triangleincicle += "#";
-// } while (triangleincicle.length <= 7);
+//     console.log(trianglecicle);
+//     trianglecicle += "#";
+// } while (trianglecicle.length <= 7);
 
 //Triangleincicle
 
@@ -25,20 +25,20 @@
 
 //chessboard
 
-// let size = 8; 
-// let chessboard = ""; 
+// let size = 8;
+// let chessboard = "";
 
-// for (let y = 0; y < size; y++) { 
-//   for (let x = 0; x < size; x++) { 
-//     if ((x + y) % 2 === 0) { 
-//       chessboard += " "; 
+// for (let y = 0; y < size; y++) {
+//   for (let x = 0; x < size; x++) {
+//     if ((x + y) % 2 === 0) {
+//       chessboard += " ";
 //     } else {
-//       chessboard += "#"; 
+//       chessboard += "#";
 //     }
 //   }
-//   chessboard += "\n"; 
+//   chessboard += "\n";
 // }
-// console.log(board);
+// console.log(chessboard);
 
 //chessboard
 
@@ -65,3 +65,19 @@
 // console.log(arr1);
 
 //6dop
+
+// Вычисление факториала числа
+
+// const numb = prompt ("Введите число");
+// function factorial(numb) {
+//     let ans = 1;  
+//     if(numb === 0)
+//         return 1;
+//     for (let i = 2; i <= numb; i++)
+//         ans = ans * i;
+//     return ans;
+// }
+// alert("Факториал числа: " + numb + " равен " + factorial(numb));
+// console.log(factorial(numb));
+
+// Вычисление факториала числа
